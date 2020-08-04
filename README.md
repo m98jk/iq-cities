@@ -5,7 +5,7 @@
 # The tools used in this project is :
 
 1. Express JS For handling the routes and directing to the right files
-2. Node Js The logic and the methodlogy of the project
+2. Node Js The logic and the methodology of the project
 3. HTML & CSS The Frontend pages and the style
 
 # NEED TO ADD MORE POST
