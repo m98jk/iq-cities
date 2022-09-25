@@ -23,10 +23,10 @@ app.use((res, req, next) => {
 });
 
 // let reqCount = 0;
-// router.get("/", (req, res) => {
+router.get("/", (req, res) => {
 //   reqCount++;
-//   res.json(city);
-// });
+  res.json(city);
+});
 // router.get("/countervistors", (req, res) => {
 //   res.send(`number of vist ${reqCount} requst`);
 // });
