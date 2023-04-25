@@ -22,14 +22,11 @@ app.use((res, req, next) => {
   next();
 });
 
-// let reqCount = 0;
 router.get("/", (req, res) => {
 //   reqCount++;
   res.json(city);
 });
-// router.get("/countervistors", (req, res) => {
-//   res.send(`number of vist ${reqCount} requst`);
-// });
+
 
 // app.use(express.static(path.join(__dirname, 'public')));
 
